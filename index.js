@@ -10,7 +10,7 @@ dotenv.config();  //all keys it will put it in process.env
 console.log(process.env)
 export const app=express();
 
-const PORT = 9000;
+const PORT = process.env.PORT;  //heroku will auto assign the available port
 
 //middleware
 
