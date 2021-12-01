@@ -7,8 +7,9 @@ import dotenv from "dotenv";
 import { moviesRouter } from "./routes/movies.js";
 
 dotenv.config();  //all keys it will put it in process.env
-console.log(process.env)
-export const app=express();
+//console.log(process.env)
+
+const app=express();
 
 const PORT = process.env.PORT;  //heroku will auto assign the available port
 
