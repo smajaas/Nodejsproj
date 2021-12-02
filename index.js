@@ -5,6 +5,7 @@ import express from "express";   // Type="module" (latest)
 import {MongoClient} from 'mongodb';
 import dotenv from "dotenv";
 import { moviesRouter } from "./routes/movies.js";
+import cors from 'cors'
 
 dotenv.config();  //all keys it will put it in process.env
 //console.log(process.env)
@@ -12,6 +13,8 @@ dotenv.config();  //all keys it will put it in process.env
 const app=express();
 
 const PORT = process.env.PORT;  //heroku will auto assign the available port
+
+app.use(cors())
 
 //middleware
 

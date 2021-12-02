@@ -61,5 +61,25 @@
     "summary":"Remy, a rat, aspires to become a renowned French chef. However, he fails to realise that people despise rodents and will never enjoy a meal cooked by him.",
     "trailer":"https://www.youtube.com/embed/NgsQ8mVkN8w",
     "language":"english"
-}
+},
+
+{
+    "id": "100",
+    "name": "Alaipayuthey",
+    "pic": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Alaipayuthey.jpg/220px-Alaipayuthey.jpg",
+    "ratings": 8.3,
+    "summary": "Karthik and Shakti marry against the wishes of their families and start their new life. However, they soon realise that marriage is not the bed of roses they had imagined it would be.",
+    "trailer": "https://www.youtube.com/embed/BRFdGc3ku-k",
+    "language":"tamil"
+
+  },
+  {
+    "id": "105",
+    "name": "The Pursuit of Happyness",
+    "pic": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Poster-pursuithappyness.jpg/220px-Poster-pursuithappyness.jpg",
+    "ratings": 8,
+    "summary": "Tired of Chris's professional failures, his wife decides to separate, leaving him financially broke with an unpaid internship in a brokerage firm and his son's custody to deal with.",
+    "trailer": "https://www.youtube.com/embed/DMOBlEcRuw8",
+    "language":"english"
+  }
 ]

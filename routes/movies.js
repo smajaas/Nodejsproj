@@ -34,11 +34,8 @@ router.route("/id")
     const { id } = request.params;
     //db.movies.findOne({id:"102"})
     const movie = await getMovieById(id);
-
-
     //const movie=movies.find((mv)=>mv.id===id);
     console.log(movie);
-
     //No matching movie found
     movie ? response.send(movie) : response.status(404).send({ message: "No matching movie found" });
 
